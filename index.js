@@ -15,6 +15,6 @@ String.prototype.toHHMMSS = function () {
   return time;
 }
 
-app.get('/', (req, res) => res.send('Hello World! ' + (process.uptime() + "").toHHMMSS()))
+app.get('/', (req, res) => res.send('Hello World2! ' + (process.uptime() + "").toHHMMSS()))
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
